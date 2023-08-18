@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "InstagramSuggestedBlocker",
+  "version": "1.3",
+  "description": "Blocks suggested posts from Instagram website",
+  "icons": {
+    "96": "icons/blocker-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.instagram.com/*"],
+      "js": ["blocker.js"]
+    }
+  ]
+}
