@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
-  "name": "InstaSuggestedBlocker",
-  "version": "1.0",
-  "description": "Blocks suggested posts from the Insta website",
+  "manifest_version": 3,
+  "name": "Insta Blocker",
+  "version": "1.2",
+  "description": "Blocks suggested posts and reels from the Insta website",
   "icons": {
     "96": "icons/blocker-96.png"
   },
